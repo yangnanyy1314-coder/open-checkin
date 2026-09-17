@@ -2,75 +2,113 @@
 
 一个面向讲师、教练、训练营和学习社群的开源 14 天打卡与成长追踪系统。
 
-**Live use:** 下载 `index.html` 后直接用浏览器打开即可，无需服务器、无需安装。
+**Open Check-in** helps educators turn a training program into a structured learning journey with daily check-ins, evidence collection, progress comparison, learner archives and coach review.
 
-## 适合谁
+## 🚀 Live Demo
 
-- 培训讲师 / 企业内训师
-- 教练 / 咨询师
-- 训练营主理人
-- 社群运营者
-- 教育工作者
-- 想做轻量学习打卡工具的个人开发者
+**[Try Open Check-in Online](https://yangnanyy1314-coder.github.io/open-checkin/)**
 
-## 核心功能
+No installation is required for the demo. The current version is local-first: learner data is stored in the browser and is not uploaded by the project.
 
-- 14 天每日打卡
-- 训练营名称 / 教练名称 / 学员名称自定义
-- 目标、行动、成果、卡点、收获、下一步记录
-- 成果截图上传
-- 学习投入与独立完成度记录
-- 7 天分享挑战
-- 自动生成分享文案
-- 成果展台
-- Day 1 → Day 14 成长对比
-- 入营 / 结营能力自评
-- 自动生成阶段复盘和结营报告
-- 学员备份导出 / 导入
-- 本机演示版教练后台
+## 📸 Screenshots
 
-## 隐私说明
+### Daily check-in dashboard
 
-默认版本使用浏览器 IndexedDB 本地存储。学员数据不会自动上传到任何服务器。
+![Open Check-in home](open-checkin-home.png)
 
-如果你要用于真实多人训练营，请自行增加云数据库、登录鉴权和数据权限控制。
+### Progress comparison
 
-## 快速开始
+![Open Check-in progress comparison](open-checkin-progress.png)
 
-1. 下载本仓库。
-2. 双击 `index.html`。
-3. 点击右上角“学员设置”。
-4. 填写训练营名称、讲师/教练名称、学员称呼、开营日期和 14 天目标。
-5. 开始使用。
+### Coach dashboard
 
-## 用 AI Coding 工具定制
+![Open Check-in coach dashboard](open-checkin-coach-dashboard.png)
 
-你可以把整个仓库交给 Codex 或其他 AI coding 工具，然后使用 `prompts/customize-with-ai.md` 中的模板进行修改。
+## ✨ Features
 
-## 项目结构
+- 14-day learning and practice tracker
+- Daily check-in and reflection
+- Learning goal and progress tracking
+- Result and screenshot submission
+- Personal achievement gallery
+- Day 1 → Day 14 progress comparison
+- Learner growth archive
+- Coach dashboard
+- Automatic completion report
+- Backup and restore
+- Local-first browser storage
+- Mobile-friendly interface
+- Customizable program, coach, learner and learning goals
 
-```text
-open-checkin/
-├── index.html
-├── README.md
-├── LICENSE
-├── docs/
-│   ├── getting-started.md
-│   └── customization.md
-└── prompts/
-    └── customize-with-ai.md
-```
+## 🎯 Who is it for?
 
-## Roadmap
+Open Check-in can be adapted for:
 
-- [ ] Supabase / Cloudflare 数据库示例
-- [ ] 学员 / 教练账号体系
-- [ ] 多训练营管理
-- [ ] AI 自动生成结营成长报告
-- [ ] 班级成果墙
-- [ ] 可配置 7 / 14 / 21 / 30 天周期
-- [ ] PWA / 移动端安装体验
+- AI training programs
+- Coaching programs
+- Creator and content bootcamps
+- Language learning
+- Professional skills training
+- Learning communities
+- Personal growth challenges
 
-## License
+## 🤖 AI-native customization
 
-MIT License。你可以自由使用、修改和二次开发，但请保留原始版权与许可声明。
+The repository includes a reusable prompt in `prompts/customize-with-ai.md`.
+
+Non-technical educators can describe their training program, learners, goals, daily tasks and preferred style, then use AI coding tools such as Codex to adapt the template.
+
+The goal is to make a practical training-management tool easier to reuse even for people without a traditional software-development background.
+
+## 🧩 Quick Start
+
+1. Download or clone this repository.
+2. Open `index.html` in a modern browser.
+3. Click **学员设置**.
+4. Enter the training program name, coach name, learner name, start date and learning goal.
+5. Start the daily check-in workflow.
+
+For a hosted version, GitHub Pages can serve the project directly from the repository root.
+
+## 🔐 Data & Privacy
+
+The current public version is local-first.
+
+- Check-in data is stored in the current browser.
+- The project does not automatically upload learner data.
+- Learners can export backups.
+- Coach demo data can be imported from learner backup files.
+
+Anyone adding a cloud backend should clearly document data handling and obtain appropriate learner consent.
+
+## 🗺️ Roadmap
+
+Current development ideas are tracked through GitHub Issues, including:
+
+- Configurable 7 / 14 / 21 / 30-day programs
+- Optional cloud database support
+- AI-assisted learning progress reports
+- Student and coach accounts
+- Multi-course management
+- Community achievement gallery
+- More reusable training templates
+
+## 📚 Documentation
+
+- `docs/getting-started.md` — getting started guide
+- `docs/customization.md` — customization guide
+- `prompts/customize-with-ai.md` — reusable AI customization prompt
+
+## 🤝 Contributing
+
+Issues, suggestions and pull requests are welcome.
+
+If you find a bug or have an idea for a reusable training workflow, open an Issue and describe the use case.
+
+## 📄 License
+
+MIT License. See `LICENSE`.
+
+---
+
+Built as an open-source experiment in making practical learning workflows easier to customize, reuse and improve with AI-assisted coding.
